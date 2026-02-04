@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "title": "send",
+      "views": "50",
+      "isDeleted": false,
+      "id": "1"
+    },
+    {
+      "title": "a comment",
+      "views": "100",
+      "isDeleted": false,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "high",
+      "views": "100",
+      "isDeleted": false
+    }
+  ],
+  "comments": [
+    {
+      "text": "a high",
+      "postId": "2",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "3",
+      "text": "send",
+      "postId": "3"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
